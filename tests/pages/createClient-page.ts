@@ -1,6 +1,5 @@
 import { expect, type Locator, type Page } from "@playwright/test";
 import { faker, Faker } from '@faker-js/faker';
-import { ClientsPage } from "./clients-page";
 
 export class CreateClientPage {
   readonly page: Page;
